@@ -18,12 +18,12 @@
     .subtitle {
       font-weight: 700;
       color: #1792d2;
-      font-size: 0.75rem;
+      font-size: 1rem;
       margin: 0;
       text-transform: capitalize;
     }
     .container {
-      width: 90%;
+      width: 70%;
       max-width: 960px;
       margin: 0 auto;
     }
@@ -52,14 +52,13 @@
       justify-content: center;
     }
     nav li {
-      margin-left: 2em;
+      margin-left: 2rem;
     }
     nav a {
       text-decoration: none;
       color: #163172;
       font-weight: 600;
       text-transform: capitalize;
-      padding: 2em 0;
     }
     nav a:hover,
     nav a:focus {
@@ -173,6 +172,13 @@
       flex-wrap: wrap;
       padding: 0 14px;
     }
+
+    .flex-container{
+      justify-content: space-evenly;
+      align-items: stretch;
+      background-size: cover;
+      padding: 5px;
+    }
     
     .column {
       -ms-flex: 25%;
@@ -202,72 +208,7 @@
       }
     }
     
-    /* Team Section */
-    .team-header {
-      text-align: center;
-      padding: 32px;
-    }
-    .team-header h1 {
-      text-align: center;
-      font-weight: 700;
-      font-size: 3.2rem;
-      color: #1e56a0;
-    }
-    @media (max-width: 600px) {
-      .team h1 {
-        font-size: x-large;
-      }
-    }
-    .team p {
-      font-weight: 600;
-      color: #181b2c;
-    }
-    .team .row {
-      display: -ms-flexbox;
-      display: flex;
-      -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-      padding: 0 14px;
-    }
-    
-    .team .column {
-      -ms-flex: 25%;
-      flex: 25%;
-      max-width: 25%;
-      padding: 0 6px;
-    }
-    .team .column img {
-      margin-top: 8px;
-      vertical-align: middle;
-      width: 100%;
-      border-radius: 50%;
-    }
-    .team .column h3 {
-      font-weight: 600;
-      font-family: "Lora", sans-serif;
-      color: #181b2c;
-      text-align: center;
-      margin-bottom: 3px;
-    }
-    .team .column p {
-      font-weight: 400;
-      color: #181b2c;
-      text-align: center;
-    }
-    @media (max-width: 800px) {
-      .team .column {
-        -ms-flex: 50%;
-        flex: 50%;
-        max-width: 50%;
-      }
-    }
-    @media (max-width: 600px) {
-      .team .column {
-        -ms-flex: 100%;
-        flex: 100%;
-        max-width: 100%;
-      }
-    }
+   
     
     /* About Section */
     .about {
@@ -291,7 +232,10 @@
     .about-content p {
       color: #181b2c;
     }
+
+
     /* Contact SEction */
+
     .contact h1 {
       text-align: center;
       font-weight: 700;

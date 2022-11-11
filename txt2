@@ -1,0 +1,32 @@
+            <div class="column">
+                <img src="img/corte1-update.png" alt="" style="width: 100%">
+            </div>
+
+            <div class="column">
+                  <img src="img/corte2.jpeg" alt="" style="width: 100%">
+              </div>
+
+
+            <div class="column">
+                  <img src="img/corte3-update.jpeg" alt="" style="width: 100%">
+              </div>
+
+
+            <div class="column">
+                  <img src="img/corte4.jpeg" alt="" style="width: 100%">
+              </div>
+
+
+
+              <ul  class="column">
+                  <li > <img src="img/corte1-update.png" alt="" style="width: 100%"></li>
+              </ul>
+              <ul  class="column">
+                  <li><img src="img/corte2-update.jpeg" alt="" style="width: 100%"></li>
+              </ul>
+              <ul >
+                  <li><img src="img/corte3-update.jpeg" alt="" style="width: 100%"></li>
+              </ul>
+              <ul>
+                  <li><img src="img/corte4-update.jpeg" alt="" style="width: 100%"></li>
+              </ul>
